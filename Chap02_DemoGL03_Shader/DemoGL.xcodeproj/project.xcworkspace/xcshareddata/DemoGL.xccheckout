@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F4A67E95-3DB2-4711-9B68-0C1634F9EE93</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DemoGL</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8E810BA5-E1FF-4531-94B9-3F3857BB2279</key>
+		<string>ssh://github.com/colin3dmax/OpenGLSuperBible_6th_Demos.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Chap02_DemoGL/DemoGL.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8E810BA5-E1FF-4531-94B9-3F3857BB2279</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/colin3dmax/OpenGLSuperBible_6th_Demos.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8E810BA5-E1FF-4531-94B9-3F3857BB2279</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8E810BA5-E1FF-4531-94B9-3F3857BB2279</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenGLSuperBible_6th_Demos</string>
+		</dict>
+	</array>
+</dict>
+</plist>
