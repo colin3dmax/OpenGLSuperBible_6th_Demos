@@ -20,6 +20,8 @@
 		43778551192EFD5C00EC31C3 /* sb6shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4377854C192EFD5C00EC31C3 /* sb6shader.cpp */; };
 		43778569192EFDE300EC31C3 /* libglfw.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43778567192EFDC100EC31C3 /* libglfw.a */; };
 		4377856A192EFDE500EC31C3 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43778568192EFDC100EC31C3 /* libglfw3.a */; };
+		43778572192F2F8C00EC31C3 /* vertex.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4377856D192F222B00EC31C3 /* vertex.glsl */; };
+		43778574192F300700EC31C3 /* fragment.glsl in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43778573192F300400EC31C3 /* fragment.glsl */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +34,17 @@
 				437784C9192EF51800EC31C3 /* DemoGL.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
+		};
+		43778570192F2A5400EC31C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				43778572192F2F8C00EC31C3 /* vertex.glsl in CopyFiles */,
+				43778574192F300700EC31C3 /* fragment.glsl in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -64,6 +77,8 @@
 		43778560192EFD7000EC31C3 /* vmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vmath.h; sourceTree = "<group>"; };
 		43778567192EFDC100EC31C3 /* libglfw.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libglfw.a; sourceTree = "<group>"; };
 		43778568192EFDC100EC31C3 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libglfw3.a; sourceTree = "<group>"; };
+		4377856D192F222B00EC31C3 /* vertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertex.glsl; sourceTree = "<group>"; };
+		43778573192F300400EC31C3 /* fragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragment.glsl; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +107,7 @@
 				43778552192EFD7000EC31C3 /* include */,
 				43778547192EFD5C00EC31C3 /* sb6 */,
 				43778566192EFDC100EC31C3 /* lib */,
+				4377856C192F1F8700EC31C3 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -184,6 +200,16 @@
 			path = DemoGL/lib;
 			sourceTree = "<group>";
 		};
+		4377856C192F1F8700EC31C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4377856D192F222B00EC31C3 /* vertex.glsl */,
+				43778573192F300400EC31C3 /* fragment.glsl */,
+			);
+			name = Resources;
+			path = DemoGL/Shaders;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -191,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 437784CC192EF51800EC31C3 /* Build configuration list for PBXNativeTarget "DemoGL" */;
 			buildPhases = (
+				43778570192F2A5400EC31C3 /* CopyFiles */,
 				437784BA192EF51800EC31C3 /* Sources */,
 				437784BB192EF51800EC31C3 /* Frameworks */,
 				437784BC192EF51800EC31C3 /* CopyFiles */,
